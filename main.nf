@@ -37,7 +37,7 @@ WorkflowMain.initialise(workflow, params, log)
 include { MNGSVIS } from './workflows/mngsvis'
 
 //
-// WORKFLOW: Run main nf-core/mngsvis analysis pipeline
+// WORKFLOW: Run main nf-core-mngsvisua/mngsvis analysis pipeline
 //
 workflow NFCORE_MNGSVIS {
     MNGSVIS ()
